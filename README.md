@@ -175,11 +175,11 @@
 
 | # | Category | Topics |
 |---|----------|--------|
-| 1 | **🔵 SQL** | `MySQL` `PostgreSQL` `Oracle` |
-| 2 | **🟢 NoSQL** | `MongoDB` `Cassandra` `Redis` `Elasticsearch` |
-| 3 | **🔗 ORM & Data Access** | `Hibernate ORM` `Spring Data JPA` `Spring Data MongoDB` `Spring Data JDBC` `Spring Data Redis` |
-| 4 | **📦 Migrations** | `Flyway` `Liquibase` |
-| 5 | **⚡ Performance** | `Connection Pooling (HikariCP)` |
+| 1 | **🐬 SQL** | `MySQL` `PostgreSQL` `Oracle` `SQL Server` |
+| 2 | **🍃 NoSQL** | `MongoDB` `Cassandra` `Redis` `DynamoDB` |
+| 3 | **🔗 Spring Data** | `Spring Data JPA` `Spring Data MongoDB` `Spring Data JDBC` `Spring Data Redis` |
+| 4 | **⚡ ORM & Tools** | `Hibernate` `JPA` `Flyway (Migrations)` `Liquibase` `Connection Pooling (HikariCP)` |
+| 5 | **📐 Database Design** | `Normalization` `Indexing` `Transactions & ACID` `CAP Theorem` `Sharding & Replication` |
 
 </details>
 
@@ -196,18 +196,18 @@
 
 | # | Topic |
 |---|-------|
-| 1 | 🔑 Authentication |
-| 2 | 🛡️ Authorization |
-| 3 | 🌐 OAuth2 |
-| 4 | 📝 Form Authentication |
-| 5 | 🎫 JWT (JSON Web Tokens) |
-| 6 | 🛡️ CSRF Protection |
-| 7 | 🌍 CORS |
-| 8 | 🔐 Method Level Security |
-| 9 | 👥 Role-Based Access Control (RBAC) |
-| 10 | ⚙️ Spring Security Filters |
-| 11 | 📋 Session Management |
-| 12 | 🏢 LDAP Authentication |
+| 1 | Authentication |
+| 2 | Authorization |
+| 3 | OAuth2 |
+| 4 | Form Authentication |
+| 5 | JWT (JSON Web Tokens) |
+| 6 | CSRF Protection |
+| 7 | CORS |
+| 8 | Method Level Security (@PreAuthorize, @Secured) |
+| 9 | Role-Based Access Control (RBAC) |
+| 10 | Session Management |
+| 11 | SSO (Single Sign-On) |
+| 12 | Spring Security Filters Chain |
 
 </details>
 
@@ -220,15 +220,15 @@
 
 <br/>
 
-> **📌 Scale your applications to millions of users**
+> **📌 Build scalable, distributed systems**
 
 | # | Category | Topics |
 |---|----------|--------|
-| 1 | **☁️ Spring Cloud** | `Gateway` `Config` `Circuit Breaker` `OpenFeign` `Sleuth` `Netflix (Eureka, Hystrix)` `Stream` `Bus` |
-| 2 | **🐳 DevOps** | `Docker` `Kubernetes` `AWS / GCP / Azure` `CI/CD (Jenkins, GitHub Actions, GitLab CI)` `Terraform` `Monitoring (Prometheus, Grafana)` `Logging (ELK Stack)` |
-| 3 | **🧠 Patterns** | `Aggregator` `CQRS` `SAGA` `Event Sourcing` `API Gateway` `Service Registry & Discovery` `Circuit Breaker` `Strangler Fig` `Sidecar` |
-| 4 | **📬 Message Queues** | `SQS` `Kafka` `RabbitMQ` |
-| 5 | **📖 API Docs** | `Swagger / OpenAPI` `Spring REST Docs` |
+| 1 | **☁️ Spring Cloud** | `Spring Cloud Gateway` `Spring Cloud Config` `Spring Cloud Circuit Breaker` `Spring Cloud OpenFeign` `Spring Cloud Sleuth` `Eureka (Service Discovery)` `Resilience4j` |
+| 2 | **🐳 DevOps** | `Docker` `Kubernetes` `AWS / GCP / Azure` `CI/CD (Jenkins, GitHub Actions)` `Terraform` `Helm Charts` |
+| 3 | **🔄 Patterns** | `Aggregator` `CQRS` `SAGA` `Event Sourcing` `API Gateway` `Service Mesh` `Circuit Breaker` `Strangler Fig` |
+| 4 | **📨 Message Queues** | `Apache Kafka` `RabbitMQ` `AWS SQS` `ActiveMQ` |
+| 5 | **📊 Observability** | `ELK Stack (Elasticsearch, Logstash, Kibana)` `Prometheus + Grafana` `Zipkin / Jaeger (Distributed Tracing)` `Micrometer` |
 
 </details>
 
@@ -238,7 +238,9 @@
 
 # 🖥️ FRONTEND ROADMAP
 
-<img src="https://img.shields.io/badge/Client_Side-61DAFB?style=for-the-badge&logoColor=black" alt="Frontend"/>
+<img src="https://img.shields.io/badge/Client_Side-007ACC?style=for-the-badge&logoColor=white" alt="Frontend"/>
+
+> **Java-based frontend technologies for building web & desktop UIs**
 
 </div>
 
@@ -251,17 +253,15 @@
 
 <br/>
 
-> **📌 Every fullstack developer must know the web basics**
+> **📌 Before any Java frontend framework, master the web basics!**
 
-| # | Topic |
-|---|-------|
-| 1 | 🟧 HTML5 |
-| 2 | 🎨 CSS3 |
-| 3 | 💛 JavaScript (ES6+) |
-| 4 | 🔷 TypeScript Basics |
-| 5 | 📱 Responsive Design |
-| 6 | 🔍 Browser DevTools |
-| 7 | 🌲 DOM Manipulation |
+| # | Category | Topics |
+|---|----------|--------|
+| 1 | **📝 HTML5** | `Semantic Elements` `Forms & Validation` `Accessibility (a11y)` `SEO Basics` |
+| 2 | **🎨 CSS3** | `Flexbox` `Grid` `Responsive Design` `Media Queries` `CSS Variables` `Animations & Transitions` |
+| 3 | **⚡ JavaScript** | `ES6+ Features` `DOM Manipulation` `Fetch API / AJAX` `Event Handling` `Promises & Async/Await` |
+| 4 | **🎨 CSS Frameworks** | `Bootstrap` `Tailwind CSS` `Bulma` |
+| 5 | **🛠️ Tools** | `npm / yarn` `Webpack / Vite` `Browser DevTools` |
 
 </details>
 
@@ -274,16 +274,16 @@
 
 <br/>
 
-> **📌 Classic Java web - understand the roots**
+> **📌 Classic Java web technology - great for understanding foundations**
 
-| # | Topic |
-|---|-------|
-| 1 | JSP Syntax & Directives |
-| 2 | JSTL (JSP Standard Tag Library) |
-| 3 | Expression Language (EL) |
-| 4 | Custom Tags |
-| 5 | MVC Pattern with Servlets & JSP |
-| 6 | Session Management in JSP |
+| # | Category | Topics |
+|---|----------|--------|
+| 1 | **🟢 Basics** | `JSP Lifecycle` `Scriptlets, Expressions, Declarations` `Implicit Objects (request, response, session, application)` |
+| 2 | **🏷️ Tag Libraries** | `JSTL (JSP Standard Tag Library)` `Custom Tag Libraries` `Expression Language (EL)` |
+| 3 | **🏗️ Architecture** | `MVC with JSP + Servlets` `Request Dispatching (forward, include)` `Filters & Listeners` |
+| 4 | **📦 Integration** | `JDBC with JSP` `Session Management` `Error Handling Pages` |
+
+> ⚠️ **2026 Status:** Legacy - mainly for maintaining existing projects. Prefer Thymeleaf for new projects.
 
 </details>
 
@@ -296,18 +296,16 @@
 
 <br/>
 
-> **📌 Modern server-side templating with Spring Boot**
+> **📌 Modern server-side template engine - Spring Boot's best friend!**
 
-| # | Topic |
-|---|-------|
-| 1 | Template Syntax |
-| 2 | Spring Boot Integration |
-| 3 | Fragments & Layouts |
-| 4 | Form Handling & Data Binding |
-| 5 | Conditional Rendering & Iteration |
-| 6 | Internationalization (i18n) |
-| 7 | Thymeleaf Security Dialect |
-| 8 | Template Caching |
+| # | Category | Topics |
+|---|----------|--------|
+| 1 | **🟢 Basics** | `Natural Templates (HTML5-friendly)` `Standard Expressions (${...}, *{...}, #{...}, @{...})` `Text, Iteration, Conditionals` |
+| 2 | **📐 Layout** | `Template Fragments` `Fragment Expressions` `Layout Dialect` `Decorate Pattern` |
+| 3 | **🔗 Spring Integration** | `Spring MVC + Thymeleaf` `Form Binding & Validation` `Spring Security Dialect` `Message Externalization (i18n)` |
+| 4 | **🔴 Advanced** | `Custom Dialects` `Inline JavaScript (th:inline)` `Template Caching` `Preprocessing` |
+
+> ✅ **2026 Status:** Actively maintained & widely used. **Recommended** for server-rendered Java web apps.
 
 </details>
 
@@ -320,18 +318,17 @@
 
 <br/>
 
-> **📌 Build web apps with pure Java - no JS needed!**
+> **📌 Build rich web UIs using only Java - no JS required!**
 
-| # | Topic |
-|---|-------|
-| 1 | Vaadin Flow (Java API) |
-| 2 | Components & Layouts |
-| 3 | Data Binding & Validation |
-| 4 | Theming & Styling |
-| 5 | Progressive Web Apps (PWA) |
-| 6 | Integration with Spring Boot |
-| 7 | Router & Navigation |
-| 8 | Grid & Data Providers |
+| # | Category | Topics |
+|---|----------|--------|
+| 1 | **🟢 Basics** | `Vaadin Flow` `Component API` `Layouts (VerticalLayout, HorizontalLayout, FormLayout)` `Navigation & Routing` |
+| 2 | **📝 Forms & Data** | `Data Binding (Binder)` `Validation` `Grid Component` `CRUD Operations` |
+| 3 | **🎨 Theming** | `Lumo Theme` `Custom CSS` `Dark/Light Mode` `Responsive Design` |
+| 4 | **🔴 Advanced** | `Web Components Integration` `PWA (Progressive Web App)` `Push Notifications (Server Push)` `Lazy Loading` `REST API Integration` |
+| 5 | **🔗 Spring Integration** | `Vaadin + Spring Boot` `Spring Security with Vaadin` `Spring Data with Vaadin` |
+
+> ✅ **2026 Status:** Growing in popularity for enterprise dashboards & internal tools.
 
 </details>
 
@@ -344,17 +341,16 @@
 
 <br/>
 
-> **📌 Enterprise component-based web framework**
+> **📌 Component-based web framework standardized in Jakarta EE**
 
-| # | Topic |
-|---|-------|
-| 1 | JSF Lifecycle |
-| 2 | Facelets Templates |
-| 3 | Managed Beans & CDI |
-| 4 | Navigation & Routing |
-| 5 | Converters & Validators |
-| 6 | PrimeFaces / RichFaces |
-| 7 | AJAX Support in JSF |
+| # | Category | Topics |
+|---|----------|--------|
+| 1 | **🟢 Basics** | `JSF Lifecycle` `Managed Beans / CDI Beans` `Facelets Templating` `Navigation Rules` |
+| 2 | **🧩 Components** | `Standard Components (h:inputText, h:dataTable, etc.)` `Converters & Validators` `Composite Components` |
+| 3 | **🔗 Integration** | `CDI (Contexts and Dependency Injection)` `EJB Integration` `JPA Integration` `PrimeFaces (Component Library)` |
+| 4 | **🔴 Advanced** | `Custom Components` `Ajax with JSF (f:ajax)` `Exception Handling` `View Scope & Conversation Scope` |
+
+> ⚠️ **2026 Status:** Declining - mainly for Jakarta EE legacy maintenance (government, finance).
 
 </details>
 
@@ -367,18 +363,17 @@
 
 <br/>
 
-> **📌 Build beautiful desktop applications with Java**
+> **📌 Modern UI platform for desktop, embedded & mobile apps**
 
-| # | Topic |
-|---|-------|
-| 1 | Scene Graph & Stages |
-| 2 | FXML Layouts |
-| 3 | CSS Styling |
-| 4 | Event Handling |
-| 5 | Animations & Charts |
-| 6 | Packaging & Distribution |
-| 7 | JavaFX with Spring Boot |
-| 8 | TableView & Data Binding |
+| # | Category | Topics |
+|---|----------|--------|
+| 1 | **🟢 Basics** | `Stage, Scene, Nodes` `FXML (XML-based UI Layout)` `Scene Builder (Visual Designer)` `Event Handling` |
+| 2 | **🎨 Styling** | `CSS Styling in JavaFX` `Themes & Skins` `Custom Controls` |
+| 3 | **📊 Rich Features** | `Charts & Graphs` `Animations & Transitions` `Media Playback (Audio, Video)` `WebView (Embedded Browser)` |
+| 4 | **🔴 Advanced** | `Properties & Bindings` `Concurrency (Task, Service)` `Canvas & 2D/3D Graphics` `Drag and Drop` `Printing API` |
+| 5 | **📦 Packaging** | `jpackage (Native Installers)` `GraalVM Native Image` `Cross-Platform Distribution` |
+
+> ✅ **2026 Status:** Well-established for desktop apps. Not for web.
 
 </details>
 
@@ -387,22 +382,19 @@
 ## ⚡ 14. Modern Java + Frontend Integration
 
 <details open>
-<summary> <b>🔽 Learn Modern Integration</b> </summary>
+<summary> <b>🔽 Modern Integration Patterns</b> </summary>
 
 <br/>
 
-> **📌 Connect your Java backend with any modern frontend**
+> **📌 Connect Java backends with modern frontend frameworks**
 
-| # | Topic |
-|---|-------|
-| 1 | REST API Consumption from Frontend |
-| 2 | WebSocket Communication |
-| 3 | Server-Sent Events (SSE) |
-| 4 | Spring + React / Angular / Vue |
-| 5 | HTMX with Spring Boot |
-| 6 | GraalVM & Native Images |
-| 7 | GraphQL with Spring Boot |
-| 8 | SPA vs Server-Side Rendering (SSR) |
+| # | Category | Topics |
+|---|----------|--------|
+| 1 | **🔗 REST + SPA** | `Spring Boot REST API + React` `Spring Boot REST API + Angular` `Spring Boot REST API + Vue.js` |
+| 2 | **📡 Real-Time** | `WebSocket with Spring` `Server-Sent Events (SSE)` `STOMP Protocol` |
+| 3 | **🔒 Auth Integration** | `JWT with SPA Frontends` `OAuth2 Login Flows` `CORS Configuration for SPAs` |
+| 4 | **📦 Deployment** | `Serving SPA from Spring Boot` `Separate Frontend/Backend Deployment` `Docker Multi-Stage Builds` `Nginx Reverse Proxy` |
+| 5 | **🌐 HTMX + Java** | `HTMX with Spring Boot + Thymeleaf` `Hypermedia-Driven Approach` `Minimal JS with Server-Side Rendering` |
 
 </details>
 
@@ -416,143 +408,153 @@
 
 ---
 
-## 📘 Resources for learning Java-Backend
+## 📖 Resources for Learning Java-Backend
 
-<details open>
-<summary> <b>🔽 Backend Resources</b> </summary>
+### 📄 Docs & Articles
+- [Tutorialspoint | Java](https://www.tutorialspoint.com/java/)
+- [Spring Framework Official Documentation](https://docs.spring.io/spring-framework/docs/current/reference/html/index.html)
+- [Spring Boot Official Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
+- [Baeldung - Java & Spring Tutorials](https://www.baeldung.com/)
+- [Java Official Documentation (Oracle)](https://docs.oracle.com/en/java/)
+- [Spring Guides](https://spring.io/guides)
 
-<br/>
+### 🎥 YouTube Channels
+> Open the channel and check its awesome related videos and playlists.
+- [Amigoscode](https://www.youtube.com/c/amigoscode)
+- [Daily Code Buffer](https://www.youtube.com/c/DailyCodeBuffer)
+- [Java Brains](https://www.youtube.com/c/JavaBrainsChannel)
+- [in28minutes - Cloud Made Easy](https://www.youtube.com/user/rithustutorials)
+- [Java Guides](https://www.youtube.com/c/JavaGuides)
+- [Laur Spilca](https://www.youtube.com/@laurspilca)
+- [Telusko](https://www.youtube.com/c/Telusko)
+- [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh)
+- [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp)
 
-#### 📄 Docs & Articles
+### 📕 Books
+- [Head First Java](https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208)
+- [Effective Java by Joshua Bloch](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997)
+- [Spring Start Here: Learn what you need and learn it well](https://www.amazon.com/Spring-Start-Here-Learn-learn/dp/1617298697)
+- [Spring in Action](https://www.amazon.com/Spring-Action-Craig-Walls/dp/1617297577)
+- [Spring Security in Action](https://www.amazon.com/Spring-Security-Action-Laurentiu-Spilca/dp/1617297739)
+- [Building Microservices: Designing Fine-Grained Systems](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
+- [Java Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+- [Clean Code by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
-| Resource | Link |
-|----------|------|
-| Tutorialspoint - Java | [🔗 Visit](https://www.tutorialspoint.com/java/) |
-| Spring Framework Docs | [🔗 Visit](https://docs.spring.io/spring-framework/docs/current/reference/html/index.html) |
-| Spring Boot Docs | [🔗 Visit](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) |
-| Baeldung | [🔗 Visit](https://www.baeldung.com/) |
-| Oracle Java Docs | [🔗 Visit](https://docs.oracle.com/en/java/) |
+### 🚀 Projects
+- [Inbox App using Spring Boot, Spring Security, and Cassandra database](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTak0b5DnJ-x85MWMPaTdl4A)
+- [Full Stack Development with Java Spring Boot, React, and MongoDB](https://www.youtube.com/watch?v=5PdEmeopJVQ&list=PLaC1bV0lrJOwmnrSmjDmnvrOGBIuaE3JA&index=1)
+- [Spring Boot E-Commerce Application](https://www.youtube.com/results?search_query=spring+boot+ecommerce+project)
+- [Blog Application with Spring Boot & Thymeleaf](https://www.youtube.com/results?search_query=spring+boot+blog+application)
 
-#### 🎬 YouTube Channels
+### 🔗 Helpful Links
+- [Common Application Properties in Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html)
+- [Design Patterns](https://refactoring.guru/design-patterns)
+- [Spring Initializr](https://start.spring.io/)
+- [Docker Hub](https://hub.docker.com/)
+- [Kubernetes Documentation](https://kubernetes.io/docs/)
 
-| Channel | Link |
-|---------|------|
-| Amigoscode | [▶️ Watch](https://www.youtube.com/c/amigoscode) |
-| Daily Code Buffer | [▶️ Watch](https://www.youtube.com/c/DailyCodeBuffer) |
-| Java Brains | [▶️ Watch](https://www.youtube.com/c/JavaBrainsChannel) |
-| in28minutes | [▶️ Watch](https://www.youtube.com/user/rithustutorials) |
-| Java Guides | [▶️ Watch](https://www.youtube.com/c/JavaGuides) |
-| Laur Spilca | [▶️ Watch](https://www.youtube.com/@laurspilca) |
-| Telusko | [▶️ Watch](https://www.youtube.com/c/Telusko) |
-| Defog Tech | [▶️ Watch](https://www.youtube.com/@DefogTech) |
-
-#### 📖 Books
-
-| Book | Link |
-|------|------|
-| Head First Java | [📕 Buy](https://www.amazon.com/Head-First-Java-Kathy-Sierra/dp/0596009208) |
-| Spring Start Here | [📕 Buy](https://www.amazon.com/Spring-Start-Here-Learn-learn/dp/1617298697) |
-| Spring Security in Action | [📕 Buy](https://www.amazon.com/Spring-Security-Action-Laurentiu-Spilca/dp/1617297739) |
-| Building Microservices | [📕 Buy](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358) |
-| Effective Java | [📕 Buy](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997) |
-| Java Concurrency in Practice | [📕 Buy](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601) |
-| Spring in Action | [📕 Buy](https://www.amazon.com/Spring-Action-Craig-Walls/dp/1617297577) |
-
-#### 🛠️ Projects
-
-| Project | Link |
-|---------|------|
-| Inbox App (Spring Boot + Cassandra) | [▶️ Watch](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTak0b5DnJ-x85MWMPaTdl4A) |
-| FullStack (Spring Boot + React + MongoDB) | [▶️ Watch](https://www.youtube.com/watch?v=5PdEmeopJVQ) |
-
-#### 🔗 Helpful Links
-
-| Resource | Link |
-|----------|------|
-| Spring Application Properties | [🔗 Visit](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html) |
-| Design Patterns | [🔗 Visit](https://refactoring.guru/design-patterns) |
-| Spring Initializr | [🔗 Visit](https://start.spring.io/) |
-| Postman | [🔗 Visit](https://www.postman.com/) |
-| Docker Hub | [🔗 Visit](https://hub.docker.com/) |
-
-#### 💼 Interview Questions
-
-| Topic | Link |
-|-------|------|
-| Java | [🔗 Prepare](https://www.interviewbit.com/java-interview-questions/) |
-| Java + Spring Boot | [🔗 Prepare](https://boldcoder.blogspot.com/2024/08/java-and-spring-boot-interview.html) |
-| Spring | [🔗 Prepare](https://www.interviewbit.com/spring-interview-questions/) |
-| REST API | [🔗 Prepare](https://www.interviewbit.com/rest-api-interview-questions/) |
-| Backend Developer | [🔗 Prepare](https://www.fullstack.cafe/blog/backend-developer-interview-questions) |
-| DBMS | [🔗 Prepare](https://www.interviewbit.com/dbms-interview-questions/) |
-| SQL | [🔗 Prepare](https://www.interviewbit.com/sql-interview-questions/) |
-| Microservices | [🔗 Prepare](https://www.interviewbit.com/microservices-interview-questions/) |
-| Docker | [🔗 Prepare](https://www.interviewbit.com/docker-interview-questions/) |
-| Kubernetes | [🔗 Prepare](https://www.interviewbit.com/kubernetes-interview-questions/) |
-
-</details>
+### ❓ Interview Questions
+- [Java Interview Questions](https://www.interviewbit.com/java-interview-questions/)
+- [Java and Spring Boot Interview Questions](https://boldcoder.blogspot.com/2024/08/java-and-spring-boot-interview.html)
+- [Spring Interview Questions](https://www.interviewbit.com/spring-interview-questions/)
+- [REST API Interview Questions](https://www.interviewbit.com/rest-api-interview-questions/)
+- [Back-End Developer Interview Questions](https://www.fullstack.cafe/blog/backend-developer-interview-questions)
+- [DBMS Interview Questions](https://www.interviewbit.com/dbms-interview-questions/)
+- [SQL Interview Questions](https://www.interviewbit.com/sql-interview-questions/)
+- [Microservices Interview Questions](https://www.interviewbit.com/microservices-interview-questions/)
+- [Docker Interview Questions](https://www.interviewbit.com/docker-interview-questions/)
 
 ---
 
-## 📗 Resources for learning Java-Frontend
+## 🎨 Resources for Learning Java-Frontend
 
-<details open>
-<summary> <b>🔽 Frontend Resources</b> </summary>
+### 📄 Docs & Articles
+- [Thymeleaf Official Documentation](https://www.thymeleaf.org/documentation.html)
+- [Thymeleaf + Spring Tutorial](https://www.thymeleaf.org/doc/tutorials/3.1/thymeleafspring.html)
+- [Vaadin Official Documentation](https://vaadin.com/docs)
+- [Vaadin Tutorial](https://vaadin.com/docs/latest/tutorial)
+- [JavaFX Official Documentation](https://openjfx.io/)
+- [Jakarta Faces (JSF) Specification](https://jakarta.ee/specifications/faces/)
+- [PrimeFaces Documentation](https://www.primefaces.org/documentation/)
+- [JSP Tutorial - Oracle](https://docs.oracle.com/javaee/5/tutorial/doc/bnagx.html)
+- [HTMX Documentation](https://htmx.org/docs/)
+- [MDN Web Docs (HTML, CSS, JS)](https://developer.mozilla.org/)
 
-<br/>
+### 🎥 YouTube Channels
+- [Amigoscode](https://www.youtube.com/c/amigoscode) - Spring Boot + React/Angular integration
+- [Java Brains](https://www.youtube.com/c/JavaBrainsChannel) - Thymeleaf & JSP Tutorials
+- [Vaadin Official](https://www.youtube.com/@vaaborern) - Vaadin Framework
+- [Coding with John](https://www.youtube.com/@CodingWithJohn) - JavaFX Basics
+- [thenewboston](https://www.youtube.com/user/thenewboston) - JSP & Servlet Tutorials
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia) - HTML, CSS, JavaScript
+- [The Net Ninja](https://www.youtube.com/c/TheNetNinja) - Frontend Frameworks
+- [freeCodeCamp.org](https://www.youtube.com/c/Freecodecamp) - Full Frontend Courses
 
-#### 📄 Docs & Articles
+### 📕 Books
+- [Thymeleaf in Practice (Spring + Thymeleaf)](https://www.amazon.com/s?k=thymeleaf+spring+boot)
+- [Vaadin Flow Documentation Book](https://vaadin.com/docs/latest)
+- [JavaFX in Action](https://www.amazon.com/s?k=javafx+in+action)
+- [Pro JavaFX (Apress)](https://www.amazon.com/s?k=pro+javafx)
+- [Core JavaServer Faces](https://www.amazon.com/Core-JavaServer-Faces-David-Geary/dp/0137012896)
+- [Head First Servlets and JSP](https://www.amazon.com/Head-First-Servlets-JSP-Certified/dp/0596516681)
+- [Learning Web Design by Jennifer Robbins](https://www.amazon.com/Learning-Web-Design-Beginners-JavaScript/dp/1491960205)
 
-| Resource | Link |
-|----------|------|
-| Thymeleaf Docs | [🔗 Visit](https://www.thymeleaf.org/documentation.html) |
-| Vaadin Docs | [🔗 Visit](https://vaadin.com/docs) |
-| Jakarta Faces (JSF) | [🔗 Visit](https://jakarta.ee/specifications/faces/) |
-| JavaFX (OpenJFX) | [🔗 Visit](https://openjfx.io/) |
-| HTMX Docs | [🔗 Visit](https://htmx.org/docs/) |
-| MDN Web Docs | [🔗 Visit](https://developer.mozilla.org/) |
+### 🚀 Projects
+- [Blog App with Spring Boot + Thymeleaf](https://www.youtube.com/results?search_query=spring+boot+thymeleaf+blog+project)
+- [E-Commerce UI with Vaadin + Spring Boot](https://www.youtube.com/results?search_query=vaadin+spring+boot+ecommerce)
+- [Task Manager Desktop App with JavaFX](https://www.youtube.com/results?search_query=javafx+task+manager+project)
+- [Student Management System with JSP + Servlets](https://www.youtube.com/results?search_query=jsp+servlet+student+management)
+- [Full Stack App: Spring Boot REST API + React Frontend](https://www.youtube.com/results?search_query=spring+boot+react+full+stack)
+- [HTMX + Spring Boot + Thymeleaf Modern Web App](https://www.youtube.com/results?search_query=htmx+spring+boot+thymeleaf)
 
-#### 🎬 YouTube Channels
+### 🔗 Helpful Links
+- [Thymeleaf Playground](https://www.thymeleaf.org/doc/tutorials/3.1/usingthymeleaf.html)
+- [Vaadin Start (Project Generator)](https://start.vaadin.com/)
+- [JavaFX Scene Builder Download](https://gluonhq.com/products/scene-builder/)
+- [PrimeFaces Showcase](https://www.primefaces.org/showcase/)
+- [HTMX Examples](https://htmx.org/examples/)
+- [Can I Use (CSS/JS Compatibility)](https://caniuse.com/)
+- [CSS-Tricks](https://css-tricks.com/)
+- [Frontend Mentor (Practice Projects)](https://www.frontendmentor.io/)
 
-| Channel | Link |
-|---------|------|
-| Amigoscode | [▶️ Watch](https://www.youtube.com/c/amigoscode) |
-| Java Brains | [▶️ Watch](https://www.youtube.com/c/JavaBrainsChannel) |
-| Vaadin Official | [▶️ Watch](https://www.youtube.com/@vaadin) |
-| Fireship | [▶️ Watch](https://www.youtube.com/c/Fireship) |
-| The Net Ninja | [▶️ Watch](https://www.youtube.com/c/TheNetNinja) |
-| Traversy Media | [▶️ Watch](https://www.youtube.com/c/TraversyMedia) |
-
-#### 📖 Books
-
-| Book | Link |
-|------|------|
-| Pro JavaFX 9 | [📕 Buy](https://www.amazon.com/Pro-JavaFX-Definitive-Building-Applications/dp/1484230418) |
-| Vaadin 14 Cookbook | [📕 Buy](https://www.amazon.com/dp/1800209029) |
-| Learning JS Design Patterns | [📕 Buy](https://www.amazon.com/Learning-JavaScript-Design-Patterns-Developers/dp/1098139879) |
-
-#### 🛠️ Project Ideas
-
-| # | Project |
-|---|---------|
-| 1 | 📝 To-Do App with Spring Boot + Thymeleaf |
-| 2 | 📊 Admin Dashboard with Vaadin + Spring Boot |
-| 3 | 💬 Chat App with WebSockets + Spring Boot |
-| 4 | 🌐 Portfolio Website using JSP + Servlets |
-| 5 | 📒 Desktop Note-Taking App with JavaFX |
-| 6 | ⚡ Real-Time Dashboard with HTMX + Spring Boot |
-
-</details>
+### ❓ Interview Questions
+- [HTML Interview Questions](https://www.interviewbit.com/html-interview-questions/)
+- [CSS Interview Questions](https://www.interviewbit.com/css-interview-questions/)
+- [JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)
+- [React Interview Questions](https://www.interviewbit.com/react-interview-questions/)
+- [Angular Interview Questions](https://www.interviewbit.com/angular-interview-questions/)
+- [JSP Interview Questions](https://www.javatpoint.com/jsp-interview-questions)
+- [Full Stack Developer Interview Questions](https://www.interviewbit.com/full-stack-developer-interview-questions/)
 
 ---
 
-## 📎 References
+<div align="center">
 
-| Reference | Link |
-|-----------|------|
-| Java Roadmap for Beginners | [🔗](https://youtu.be/lXrr1OohGF0) |
-| Master Spring Boot - Roadmap | [🔗](https://youtu.be/gQHs8pnlagM) |
-| Learning Spring Boot 2022 | [🔗](https://youtu.be/YNEUMmtO_6k) |
+## 🗺️ Suggested Learning Path
+
+</div>
+
+```
+🟢 BEGINNER                    🟡 INTERMEDIATE                   🔴 ADVANCED
+─────────────                  ─────────────────                 ─────────────
+                                                                 
+☕ Java Basics ──────────────▶ 🌿 Spring Framework ──────────▶ 🧩 Microservices
+                               🚀 Spring Boot                   ☁️ Cloud & DevOps
+🌍 HTML, CSS, JS ───────────▶ 🍃 Thymeleaf                     ⚡ Modern Integration
+                               🌐 REST API                      📊 Observability
+🗄️ SQL Basics ──────────────▶ 🔒 Spring Security               💎 Vaadin / 🖥️ JavaFX
+                               🍃 NoSQL                         🎭 JSF (if needed)
+```
+
+---
+
+## 📖 References
+- Java Roadmap for Beginners [🔗](https://youtu.be/lXrr1OohGF0)
+- How to Master Spring Boot - Complete Spring Boot Roadmap [🔗](https://youtu.be/gQHs8pnlagM)
+- Learning Spring Boot in 2022 | Roadmap [🔗](https://youtu.be/YNEUMmtO_6k)
+- Thymeleaf Official Tutorials [🔗](https://www.thymeleaf.org/doc/tutorials/3.1/usingthymeleaf.html)
+- Vaadin Getting Started [🔗](https://vaadin.com/docs/latest/tutorial)
+- JavaFX Getting Started [🔗](https://openjfx.io/openjfx-docs/)
 
 ---
 
@@ -560,16 +562,13 @@
 
 <div align="center">
 
-**Contributions are welcome! 🎉**
+**If you think anything can be improved, please do suggest:**
 
-If you think anything can be improved, please:
+🔹 Open pull request with improvements
+🔹 Discuss ideas in issues
+🔹 Star ⭐ the repo if you found it helpful!
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/aniketmishra-0/Java-FullStack-Roadmap/pulls)
-
-- 🍴 Fork the repo
-- 🔧 Make your changes
-- 📬 Open a Pull Request
-- 💡 Discuss ideas in Issues
+[![Contributors](https://img.shields.io/github/contributors/aniketmishra-0/Java-FullStack-Roadmap?style=for-the-badge)](https://github.com/aniketmishra-0/Java-FullStack-Roadmap/graphs/contributors)
 
 </div>
 
@@ -577,10 +576,8 @@ If you think anything can be improved, please:
 
 <div align="center">
 
-### ⭐ If you found this roadmap helpful, please give it a star!
+**Made with ❤️ for the Java Community**
 
-**Made with ❤️ by [Aniket Mishra](https://github.com/aniketmishra-0)**
-
-<img src="https://img.shields.io/badge/Happy_Coding!-☕-orange?style=for-the-badge" alt="Happy Coding"/>
+⭐ **Star this repo** if you found it useful!
 
 </div>
